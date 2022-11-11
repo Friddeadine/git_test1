@@ -3,4 +3,5 @@ abc
 #viel viel mehr
 library(tidyverse)
 library(nycflights13)
-summarize(flights, mean(month))
+x <- summarize(flights, mean(month))
+x + 5
